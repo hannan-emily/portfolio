@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Home from './Home';
+import Nav from './Nav';
 import Projects from './Projects';
 import Technologies from './Technologies';
-import Nav from './Nav';
+import About from './About';
+import Contact from './Contact';
 
 import {
   BrowserRouter as Router,
@@ -22,6 +24,8 @@ class App extends Component {
           <Nav />
           <Projects />
           <Technologies />
+          <About />
+          <Contact />
         </div>
       </Router>
     );

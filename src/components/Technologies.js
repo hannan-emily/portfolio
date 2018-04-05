@@ -6,9 +6,9 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 class Technologies extends Component {
   render() {
     return (
-      <Row>
+      <Row className='technologies'>
       <a className="anchor" id="technologies"></a>
-        <Col className='technologies' s={12}>
+        <Col  s={12}>
           <h2 className='h2-white'> TECHNOLOGIES </h2>
           <Row className='technologies-logos'>
             <Col s={2}>

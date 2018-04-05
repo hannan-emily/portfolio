@@ -18,11 +18,42 @@ h2 {
   font-size: 2.5em;
 }
 
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
 h5 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
 }
+
+.h3-white {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  color: white;
+  text-align: left;
+
+}
+
+.h4-white {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+}
+
+
 
 h6 {
   font-family: 'Oswald', sans-serif;
@@ -45,19 +76,13 @@ p {
   z-index: 100;
 }
 
-/* .nav .nav-center ul {
-    text-align: center;
-}
-.nav .nav-center ul li {
-    display: inline;
-    float: none; */
 
 .nav ul li a {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     z-index: 100;
-    background-color: transparent
+    background-color: transparent;
 }
 
 /* .nav ul li:hover {
@@ -72,6 +97,16 @@ p {
 .row {
   margin: 0;
   padding: 0;
+}
+
+.technologies {
+  padding: 2% 0 2% 0;
+  background-color: #283C3F;
+}
+
+.about {
+  padding: 4% 0 4% 0;
+  background: #F5F7F6;
 }
 
 .btn, .btn-flat, .btn-large {
@@ -92,9 +127,7 @@ p {
   display: inline-block;
 }
 
-.technologies {
-  background-color: #283C3F;
-}
+
 
 .logo {
   height: 75px;
@@ -109,6 +142,15 @@ p {
   margin-right: .5em; */
 }
 
+.logo-about {
+  vertical-align: baseline;
+  display: inline-block;
+  margin: 0 3% 0 0;
+  height: 30px;
+  width: 30px;
+
+}
+
 .project-text {
   z-index: 10;
   position: absolute;
@@ -117,8 +159,43 @@ p {
   margin-top: 4em;
 }
 
+.project-text-2 {
+  text-align: left ;
+  color: black;
+}
+
 .project-image {
   z-index: 0;
   position: relative;
   width: 100%;
+}
+
+.contact-text {
+  text-align: left !important;
+  color: white;
+}
+
+.form {
+  text-align: left !important;
+  color: white;
+}
+
+video {
+  height: 100vh;
+  width: 100%;
+}
+
+.videodiv {
+  margin: 0;
+  padding: 0;
+  z-index: -100;
+  overflow-y: hidden;
+}
+
+#videoRow {
+   text-align: center;
+}
+
+#background-video {
+  object-fit: cover;
 }
