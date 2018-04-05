@@ -41,7 +41,8 @@ p {
 }
 
 .nav {
-  background-color: #f3f4f6;
+  background-color: white;
+  z-index: 100;
 }
 
 /* .nav .nav-center ul {
@@ -55,7 +56,13 @@ p {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    z-index: 100;
+    background-color: transparent
 }
+
+/* .nav ul li:hover {
+   background-color: transparent;
+} */
 
 .col {
   margin: 0;
@@ -113,5 +120,5 @@ p {
 .project-image {
   z-index: 0;
   position: relative;
-  width: 100%
+  width: 100%;
 }
