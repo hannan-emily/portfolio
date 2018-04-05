@@ -14,6 +14,8 @@ const Nav = props => {
         <NavItem><Link to="/">HOME</Link></NavItem>
         <NavItem><a href="#projects">PROJECTS</a></NavItem>
         <NavItem><a href="#technologies">TECH</a></NavItem>
+        <NavItem><a href="./img/resume-hannan.pdf" target="_blank">RESUME</a></NavItem>
+
       </Navbar>
 
     )
