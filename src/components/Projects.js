@@ -14,7 +14,7 @@ class Projects extends Component {
   render() {
     return (
 
-      <Row className='row'>
+      <Row>
         <a className="anchor" id="projects"></a>
 
         <Col className='projects col' s={12}>

@@ -20,8 +20,8 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <Home />
           <Nav />
+          <Home />
           <Projects />
           <Technologies />
           <About />

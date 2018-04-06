@@ -13,13 +13,14 @@ class Contact extends Component {
 
           <Col offset="s2" s={8}>
           <h4 className="h3-white">Get In Touch!</h4>
-          <h5 className="h4-white">Email Emily:</h5>
+          <h5 className="h4-white">EMAIL&nbsp;HER:</h5>
 
             <div className="contact-text">
               <form action="https://formspree.io/emilyhannan@gmail.com" method="POST">
-                <input type="text" name="name" />
-                <input type="email" name="_replyto" />
-                <input type="submit" value="Send" />
+                <input type="text" name="name" placeholder="NAME"/>
+                <input type="email" name="_replyto" placeholder="EMAIL" />
+                <textarea name="message" placeholder="MESSAGE" />
+                <input className="btn" type="submit" value="Send" />
               </form>
             </div>
           </Col>

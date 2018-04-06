@@ -9,13 +9,29 @@ html, body {
 h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 20em;
+  font-size: 6em;
+  opacity: .7;
+  margin: 0px;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  font-size: 2.5em;
+  font-size: 3em;
+  margin: 0px;
+  top: -10%;
+}
+
+.h2-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  margin: 0px;
+  top: 5%;
+  position: relative;
+  color: white;
+  left: 10%;
+  letter-spacing: 22px;
 }
 
 h3 {
@@ -36,9 +52,10 @@ h5 {
   font-size: 1.2em;
 }
 
+
 .h3-white {
   font-family: 'Oswald', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 2.5em;
   color: white;
   text-align: left;
@@ -47,10 +64,11 @@ h5 {
 
 .h4-white {
   font-family: 'Oswald', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.5em;
   color: white;
   text-align: left;
+  letter-spacing: 4px;
 }
 
 
@@ -90,8 +108,8 @@ p {
 } */
 
 .col {
-  margin: 0;
-  padding: 0;
+  margin: 0 ;
+  padding: 0 ;
 }
 
 .row {
@@ -117,6 +135,8 @@ p {
   padding-bottom: 2.5em;
   margin-top: 2em;
 }
+
+
 
 .tech-used-parent {
   margin-top: 9em;
@@ -180,9 +200,26 @@ p {
   color: white;
 }
 
+
+#videoRow {
+   text-align: center;
+   height: 100%;
+   width: 100%;
+}
+
 video {
-  height: 100vh;
+  height:400px;
   width: 100%;
+
+}
+
+.video-title {
+  z-index: 10;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  top: 20%;
 }
 
 .videodiv {
@@ -190,12 +227,16 @@ video {
   padding: 0;
   z-index: -100;
   overflow-y: hidden;
-}
-
-#videoRow {
-   text-align: center;
+  top: -20%;
 }
 
 #background-video {
   object-fit: cover;
+  z-index: -100;
+
+}
+
+.projects {
+  padding: 0 !important;
+  margin: 0 !important;
 }
